@@ -40,7 +40,7 @@ data:
             <h1>Hello World!</h1>
             <p>This is served by nginx using a ConfigMap</p>
             <p>Deployed via ArgoCD GitOps</p>
-            <p>Version: 1.0</p>
+            <p>Version: 2.0 - Updated via GitOps</p>
         </div>
     </body>
     </html>
