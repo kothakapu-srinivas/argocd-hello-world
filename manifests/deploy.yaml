@@ -71,7 +71,7 @@ spec:
         - containerPort: 80
         volumeMounts:
         - name: html-content
-          mountPath: /usr/share/nginx/html/index.html
+          mountPath: /usr/share/nginx/html
          # subPath: index.html
         resources:
           requests:
