@@ -40,7 +40,7 @@ data:
             <h1>Hello World!</h1>
             <p>This is served by nginx using a ConfigMap</p>
             <p>Deployed via ArgoCD GitOps</p>
-            <p>Version: 4.0 - Updated via GitOps</p>
+            <p>Version: 5.0 - Updated via GitOps</p>
         </div>
     </body>
     </html>
@@ -72,7 +72,7 @@ spec:
         volumeMounts:
         - name: html-content
           mountPath: /usr/share/nginx/html/index.html
-          subPath: index.html
+         # subPath: index.html
         resources:
           requests:
             memory: "64Mi"
